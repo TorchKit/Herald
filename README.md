@@ -1,4 +1,4 @@
-# Code Screenshot / Social Media Tool
+# Herald
 
 This repo contains a single HTML page with some pre-built formatting and styling around an `<img>` tag. 
 This `<img>` tag is then designed to receive a code screenshot from a utility like Polaroid or ShowCode.
