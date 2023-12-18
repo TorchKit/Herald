@@ -5,7 +5,7 @@
     <head>
 
         <!-- Title -->
-        <title>Screenshot Tool</title>
+        <title>Herald</title>
 
         <!-- Meta -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,45 +13,49 @@
         <meta name="Content-Type"          content="text/html; charset=UTF-8">
         <meta name="viewport"              content="width=device-width, initial-scale=1">
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap">
-
         <!-- Scripts -->
         <script src="https://cdn.tailwindcss.com"></script>
 
         <!-- Styles -->
         <style>
-            .font { font-family: 'Be Vietnam Pro', sans-serif }
+            @font-face {
+                font-family: 'Be Vietnam Pro';
+                font-style: normal;
+                font-weight: 100 900;
+                font-variant-numeric: proportional-nums;
+                src: url('https://raw.githubusercontent.com/TorchKit/Branding/main/fonts/BeVietnamPro.woff2') format('woff2')
+            }
         </style>
 
     </head>
 
     <!-- Body -->
-    <body class="bg-black flex justify-center items-center font min-h-[100vh]">
-        <section class="bg-gradient-to-b from-[#101D2F] to-[#111B2A] w-[1000px] py-[100px]">
+    <body class="bg-black font-['Be_Vietnam_Pro'] flex justify-center items-center min-h-[100vh]">
+        <section class="w-[1000px] py-[100px]"
+                 style="background: linear-gradient(20deg, #153963, #155263 45%, #D4D4D4 45.00001%)">
 
-            <!-- Article -->
-            <article class="border border-[#2D3847] w-[800px] min-h-[100px] overflow-hidden rounded-xl relative mx-auto">
+            <!-- Content -->
+            <article class="w-[800px] min-h-[100px] overflow-hidden rounded-xl relative mx-auto">
 
                 <!-- Screenshot -->
-                <img src="code.png"
+                <img src="screenshot.png"
                      class="max-w-[800px] rounded-xl">
 
             </article>
 
             <!-- Footer -->
-            <footer class="flex justify-between w-[800px] mx-auto mt-3">
+            <footer class="flex justify-between items-start w-[800px] mx-auto mt-4">
 
-                <!-- Advert -->
-                <p class="text-gray-500 pr-[100px] mb-0">
+                <!-- CTA -->
+                <p class="text-gray-400 pr-[100px] mb-0">
 
                     <!-- Text -->
                     Discover the open-source modular web
                     app for your freelance designer or
-                    developer business. Download at
+                    developer business. Visit
 
                     <!-- Link -->
-                    <span class="text-rose-300/80">
+                    <span class="text-yellow-500">
                         torchkit.co
                     </span>
 
@@ -59,7 +63,7 @@
                     or follow
 
                     <!-- Link -->
-                    <span class="text-rose-300/80">
+                    <span class="text-yellow-500">
                         @TheTorchKit
                     </span>
 
@@ -70,7 +74,7 @@
 
                     <!-- Logo -->
                     <img class="w-[20px] mr-2"
-                         src="https://raw.githubusercontent.com/TorchKit/Branding/main/images/bitmaps/logo.png">
+                         src="https://raw.githubusercontent.com/TorchKit/Branding/main/images/png/logo.png">
 
                     <!-- Header -->
                     <h1 class="font-semibold text-[30px] text-gray-300 tracking-tight mb-0">
