@@ -15,8 +15,8 @@ The page can then be exported from the web browser as a complete image and share
 
 ## Usage
 
-1. Download the [index.html](index.html) file.
-2. Open the HTML file and modify the `<footer>` tag to display your own CTA / branding.
+1. Download / extract the repository.
+2. Open the `index.html` file and modify the `<footer>` tag to display your own CTA / branding.
 3. Export a code screenshot using your app or site of choice e.g. [ShowCode](https://showcode.app).
 4. Make sure the screenshot is in the same directory as the HTML file and that it is named `screenshot.png`.
 5. View the HTML file in your web browser, then open dev tools / web inspector.
