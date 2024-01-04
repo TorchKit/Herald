@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/TorchKit/Herald/main/art/banner.png" width="800" alt="Herald">
+    <img src="https://raw.githubusercontent.com/TorchKit/Herald/main/banner.png" width="800" alt="Herald">
     <p align="center">
         <img alt="Format" src="https://img.shields.io/badge/format-HTML-orange">
         <img alt="Version" src="https://img.shields.io/badge/version-v1.0-blue">
