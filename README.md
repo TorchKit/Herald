@@ -23,12 +23,6 @@ The page can then be exported from the web browser as a complete image and share
 6. Find the `<section>` tag, then right click on it and export / capture the node as a screenshot.
 7. Post on social media or wherever you like :)
 
-## Suggestions
-
-1. Make sure that the exported screenshot is not rounded.
-2. Make sure that the exported screenshot does not contain any padding, margin or spaces.
-3. Make sure that the exported screenshot does not include any traffic lights or headers (unless you want them).
-
 ## License
 
 The repository is open-sourced software licensed under the [MIT license](LICENSE.MD).
